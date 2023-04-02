@@ -1,8 +1,7 @@
 """
-Даны 2 переменных, в которых хранятся строки произвольной длины: phrase_1 и phrase_2.
-Напишите код, который проверяет какая из этих строк длиннее
-"""
+The program checks which of the entered strings is longer.
 
+"""
 phrase_1 = input("Введите фразу 1: ")
 phrase_2 = input("Введите фразу 2: ")
 if len(phrase_2) == len(phrase_1):

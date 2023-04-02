@@ -1,10 +1,10 @@
 """
-Программа для подбора упаковок по размерам товара.
-Размеры (ширина, длина, высота) хранятся в переменных (в сантиметрах):
-если каждое из трех измерений менее или равно 15 см, выводит на экран "Коробка №1";
-если хотя бы одно из измерений больше 2 м - "Упаковка для лыж";
-если хотя бы одно из измерений больше 15 см, но менее 50 см - "Коробка №2";
-во всех остальных случаях - "Коробка №3".
+The program for the selection of packages according to the size of the goods.
+Dimensions (width, length, height) are stored in variables (in centimeters):
+* if each of the three dimensions is less than or equal to 15 cm, displays "Box No.1";
+* if at least one of the measurements is more than 2 m - "Ski package";
+* if at least one of the measurements is more than 15 cm, but less than 50 cm - "Box No.2";
+in all other cases - "Box No.3".
 
 """
 width = 15
